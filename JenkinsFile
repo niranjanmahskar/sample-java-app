@@ -1,0 +1,11 @@
+pipeline
+ 
+{
+    agent any        // This pipeline will run on any available agent
+    stages
+     
+    {
+        stage ("Git checkout")
+    {
+        steps {git branch: 'main', url: 'https://github.com/niranjanmahskar/sample-java-app.git'}
+    }    
