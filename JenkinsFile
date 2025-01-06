@@ -9,3 +9,5 @@ pipeline
     {
         steps {git branch: 'master', url: 'https://github.com/niranjanmahskar/sample-java-app.git'}
     }    
+    }
+}
